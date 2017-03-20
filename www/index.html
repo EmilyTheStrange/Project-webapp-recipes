@@ -3,22 +3,47 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <style>
+        body {font-family: monospace; 
+            background-color: blanchedalmond;
+            font-size: 20px;    
+        }        
+        h1 {text-align: center; 
+            color:burlywood; 
+            background-image: url(images/dark-old-wood-texture-background-header.jpg);
+            font-size: 100px;
+        }
+        h2 {color: chocolate;}
+        blockquote {background-color: antiquewhite;
+        font-size: 40px;}
+        #ToC {color: burlywood;
+        list-style-type: circle;
+        list-style-position: inside;}
+        #ingred {color: darkgoldenrod;
+        font-weight: bold;
+        list-style-position: inside;
+            list-style-type: circle;}     
+    </style>
     <title>Mruczkowe recipes</title>
 </head>
 <body>
     <header>
-    <h1>My favourite recipes</h1>
-        <ul>
+    <h1>MY FAVOURITE RECIPES</h1>
+    <h2><blockquote>
+            <q>Oh, I adore to cook. It makes me feel minless in a worthwhile way</q>
+        </blockquote></h2>
+        <ul id="ToC">
             <li><a href="#PB">Peanut butter oatmeal</a></li>
             <li><a href="#Apple">Apple oatmeal</a></li>
             <li><a href="#Millet">High-protein millet with eggs and banana</a></li>
         </ul>
+       
     </header>
     <article>
         <h2 id="PB">Peanut butter oatmeal</h2>
-        <img src="images/PB_oatmeal.jpg" alt="Peanut butter oatmeal with sliced banana" title="PB oatmeal" height="173">
+        <img src="images/PB_oatmeal.jpg" alt="Peanut butter oatmeal with sliced banana" title="PB oatmeal" height="230">
         <h3>Ingridients</h3>
-        <ul>
+        <ul id="ingred">
             <li>40g of oats</li>
             <li>115 ml of soy milk</li>
             <li>1 tbls of penaut butter or 2 eggs</li>
@@ -37,9 +62,9 @@
     </article>
     <article>
         <h2 id="Apple">Apple oatmeal</h2>
-        <img src="images/apple-oatmeal.jpg" alt="Apple oatmeal with almonds and honey" title="Apple oatmeal" height="173">
+        <img src="images/apple-oatmeal.jpg" alt="Apple oatmeal with almonds and honey" title="Apple oatmeal" height="230">
         <h3>Ingridients</h3>
-        <ul>
+        <ul id="ingred">
             <li>40g of oats</li>
             <li>115 ml of soy milk</li>
             <li>2 tbls of honey</li>
@@ -57,9 +82,9 @@
     </article>
     <article>
         <h2 id="Millet">High-protein millet with eggs and banana</h2>
-        <img src="images/millet.jpg" alt="Millet with banana and eggs" title="High-protein millet" height="173">
+        <img src="images/millet.jpg" alt="Millet with banana and eggs" title="High-protein millet" height="230">
         <h3>Ingridients</h3>
-        <ul>
+        <ul id="ingred">
             <li>50g of millet</li>
             <li>115 ml of soy milk</li>
             <li>2 eggs</li>
