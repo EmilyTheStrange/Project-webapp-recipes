@@ -1,0 +1,41 @@
+ body {font-family: monospace; 
+            background-color: blanchedalmond;
+            font-size: 20px; 
+            text-align: center;            
+        }        
+        h1 {text-align: center; 
+            color:burlywood; 
+            background-image: url(images/header.jpg);
+            background-size: cover;
+            font-size: 100px;
+        }
+        h2 {color: chocolate;}
+        blockquote {background-color:       antiquewhite;
+            text-decoration: underline;
+            font-size: 40px;
+            border: 3px dotted chocolate;
+            padding: 10px;
+            text-align: center;
+            border-radius: 25px;
+        }
+        #ToC {color: burlywood;
+             list-style-type: circle;
+             list-style-position: inside;}
+        .additional {list-style-type: disc;
+                    color: brown;}
+        footer {color: brown;
+                font-size: 22px;}
+        #ingred {color: darkgoldenrod;
+        font-weight: bold;
+        list-style-position: inside;
+            list-style-type: circle;}
+        #PB,#Apple,#Millet {text-decoration: underline}
+        img {border: 3px dotted burlywood;
+        padding: 10px;}
+        section {border: 3px double burlywood;
+        padding: 10px;}
+        article {margin-bottom: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;}
+        
