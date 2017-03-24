@@ -5,6 +5,7 @@
 h1 {text-align: center; 
     color:burlywood; 
     background-image: url(images/header.jpg);
+    background-position: top;
     background-size: cover;
     font-size: 100px;}
 h2 {color: chocolate;}
@@ -16,6 +17,8 @@ blockquote {background-color: antiquewhite;
             text-align: center;
             border-radius: 25px;
             color: chocolate;}
+.ref:hover {background-color: burlywood;
+            font-style: oblique;}
 #ToC {color: burlywood;
       list-style-type: circle;
       list-style-position: inside;}
