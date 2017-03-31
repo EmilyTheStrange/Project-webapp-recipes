@@ -74,15 +74,17 @@ section {
     display: flex;
     flex-flow: row wrap;
     max-width: calc(100vw - 200px);
+    justify-content: center;
+    margin-bottom: 10px;
 }
 article {
     margin-bottom: 50px;
     margin: 100px;
     margin-top: 50px;
-    min-width: calc(100vw - 200px);
-    
+    min-width: calc(100vw - 200px);   
     }
 .download {
     font-size: 18px;
     }
+
         
